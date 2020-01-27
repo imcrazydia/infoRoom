@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 600px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -310px;
+  }
+
+  .popuptext2 {
+    visibility: hidden;
+    width: 600px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -410px;
+  }
+
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  .info_1 {
+    position: absolute;
+    left: 37.3%;
+    top: 60%;
+    color: #000;
+}
+
+.info_2 {
+    position: absolute;
+    right: 33%;
+    top: 69.5%;
+    color: #000;
+}
+
+.info_3 {
+    position: absolute;
+    right: 11%;
+    top: 24%;
+    color: #000;
+}
+
+.terug {
+    position: absolute;
+      left: 2%;
+      top: 32%;
+      color: red;
+      font-size: 4em;
+      background-color: aqua;
+      padding: 1em;
+  }

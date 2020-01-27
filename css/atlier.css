@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 600px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -310px;
+  }
+
+  .popuptext2 {
+    visibility: hidden;
+    width: 600px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -550px;
+  }
+
+  .popuptext3 {
+    visibility: hidden;
+    width: 600px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -310px;
+    margin-bottom: -170px;
+  }
+
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  .info_1 {
+    position: absolute;
+    left: 36%;
+    top: 5.5%;
+    color: #fff;
+}
+
+.info_2 {
+    position: absolute;
+    right: 3%;
+    top: 18%;
+    color: #fff;
+}
+
+.info_3 {
+    position: absolute;
+    right: 24%;
+    top: 58.5%;
+    color: #fff;
+}
+
+.info_4 {
+    position: absolute;
+    left: 22%;
+    top: 65.5%;
+    color: #fff;
+}
+
+.terug {
+  position: absolute;
+    left: 2%;
+    top: 10%;
+    color: #000;
+    font-size: 4em;
+    background-color: #c4b48b;
+    border: solid 2px #d4af37;
+    padding: 1em;
+}

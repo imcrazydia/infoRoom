@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+}
+
+.schilderij_1 a, .schilderij_2 a, .schilderij_3 a {
+    color: #000;
+    font-size: 4em;
+    text-decoration: none;
+}
+
+.schilderij_1 {
+    position: absolute;
+    left: 19.5%;
+    top: 40.5%;
+}
+
+.schilderij_2 {
+    position: absolute;
+    left: 48%;
+    top: 40.5%;
+}
+
+.schilderij_3 {
+    position: absolute;
+    right: 18.5%;
+    top: 40.5%;
+}
